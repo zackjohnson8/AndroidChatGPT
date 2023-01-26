@@ -1,6 +1,7 @@
 package com.example.androidchatgpt
 
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -10,6 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import com.example.androidchatgpt.databinding.ActivityMainBinding
+import com.google.android.gms.net.CronetProviderInstaller
 
 class MainActivity : AppCompatActivity() {
 
